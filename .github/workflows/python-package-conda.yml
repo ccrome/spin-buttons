@@ -20,5 +20,5 @@ jobs:
         $CONDA/bin/conda env update --file environment.yml --name base
     - name: Build
       run: |
-        cd pio && platformio run
+        cd pio && $CONDA/Scripts/platformio run
         
