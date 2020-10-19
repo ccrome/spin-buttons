@@ -1,0 +1,3 @@
+[submodule "pio/lib/ESP32-BLE-Keyboard"]
+	path = pio/lib/ESP32-BLE-Keyboard
+	url = https://github.com/T-vK/ESP32-BLE-Keyboard.git
