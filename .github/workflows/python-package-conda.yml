@@ -2,7 +2,7 @@ name: Python Package using Conda
 
 on: [push]
 
-jobs:
+fgjobs:
   build-linux:
     runs-on: ubuntu-latest
     strategy:
@@ -21,5 +21,5 @@ jobs:
     - name: Build
       run: |
         #cd pio && $CONDA/Scripts/platformio run
-        du -a $CONDA
+        which -a python
         
